@@ -1,79 +1,42 @@
 \documentclass[12pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{graphicx} % For figures
-\usepackage{hyperref} % For hyperlinks
-\usepackage{booktabs} % For professional tables
-\usepackage{amsmath}  % For math equations
 
-% Title Page
-\title{\textbf{Report Title}}
-\author{Author Name \\ Institution/Department}
-\date{\today}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{vntex}
 
 \begin{document}
 
-% Title Page
-\maketitle
-\thispagestyle{empty} % Remove page number from title page
-\newpage
+    
+\begin{titlepage}      
+    \begin{center}
+        \includegraphics[width=5cm]{figures/uit.png}\\[1cm]
+        {\LARGE Trường Đại học Công nghệ thông tin\\[0.5cm]
+        Khoa Khoa học máy tính}\\[3cm]
 
-% Table of Contents
-\tableofcontents
-\newpage
+        \linespread{1.2}\huge {
+            QUẢN LÝ BỆNH ÁN BỆNH NHÂN 
+        }
 
-% Abstract (Optional)
-\begin{abstract}
-This is a brief summary of your report. It should include the purpose, methods, and key findings in 100-200 words.
-\end{abstract}
-\newpage
+        \vfill
 
-% Main Content
-\section{Introduction}
-\label{sec:intro}
-This is the introduction section. State the purpose of the report, background information, and objectives. 
+        {\large
+            Sinh viên thực hiện: Nhóm 15
+        }\\[0.5cm]
 
-\subsection{Motivation}
-Explain why this topic is important. Use references like  to support your claims.
+        {\Large 
+            Nguyễn Chí Cường - 23520199 \\
+            Dương Thông Tuệ - 23521734
+        }\\[0.5cm] 
+        
 
-% Example Figure
-\section{Methods}
-\label{sec:methods}
-Describe the methodology used in your report. 
-
-% Example Table
-\section{Results}
-\label{sec:results}
-Present your findings here. Use tables and figures to organize data.
-
-\begin{table}[h]
-    \centering
-    \begin{tabular}{lcc}
-        \toprule
-        \textbf{Item} & \textbf{Value 1} & \textbf{Value 2} \\
-        \midrule
-        Data A & 10 & 20 \\
-        Data B & 30 & 40 \\
-        \bottomrule
-    \end{tabular}
-    \caption{Example table with data.}
-    \label{tab:example}
-\end{table}
-
-% Example Math
-\section{Discussion}
-\label{sec:discussion}
-Discuss your results and their implications. You can include equations:
-
-\begin{equation}
-    E = mc^2
-\end{equation}
-
-% References (Using BibTeX)
-\section{Conclusion}
-Summarize key points and suggest future work.
-
-% Bibliography
-\bibliographystyle{plain} % or IEEE, APA, etc.
-\bibliography{references} % references.bib file
+        {\large 
+            \emph{Giảng viên hướng dẫn:} ThS. Đỗ Văn Tiến}\\[1cm] % if applicable
+        
+                
+    \end{center}
+\end{titlepage}
 
 \end{document}
