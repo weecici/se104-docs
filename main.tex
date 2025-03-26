@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[12pt]{report}
 
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -6,6 +6,20 @@
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage{vntex}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage{array}
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
 
 \begin{document}
 
@@ -38,5 +52,11 @@
                 
     \end{center}
 \end{titlepage}
+
+\newpage
+\tableofcontents
+
+\include{chapters/1/main.tex}
+\include{chapters/2/main.tex}
 
 \end{document}
