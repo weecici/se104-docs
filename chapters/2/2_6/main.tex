@@ -1,1 +1,43 @@
 \section{Yêu cầu bảo mật}
+
+\subsection{Yêu cầu bảo mật}
+
+\begin{tabular}{|c|c|c|c|c|}
+  \hline
+  \textbf{STT} & \textbf{Nghiệp vụ} & \textbf{Quản trị hệ thống} & \textbf{Bác sĩ} & \textbf{Bệnh nhân} \\
+  \hline
+  1 & Tiếp nhận bệnh nhân &  & X & \\
+  \hline
+  2 & Tra cứu hồ sơ bệnh nhân & X & X & X \\
+  \hline
+  3 & Tra cứu hồ sơ bác sĩ & X & X & \\
+  \hline
+  4 & Tra cứu kết quả xét nghiệm & & X & X \\
+  \hline
+  5 & Tạo phác đồ điều trị & & X & \\
+  \hline
+  6 & Tra cứu phác đồ điều trị & & X & X \\
+  \hline
+  7 & Tạo lịch hẹn & & X & X \\
+  \hline
+  8 & Tra cứu lịch hẹn & & X & X \\
+  \hline
+  9 & Tạo thông báo & X & X & \\
+  \hline
+  10 & Tra cứu lịch sử thông báo & X & X & X \\
+  \hline
+\end{tabular}
+
+\subsection{Bảng trách nhiệm yêu cầu bảo mật}
+
+\begin{tabular}{|c|c|c|>{\centering\arraybackslash}m{3cm}|c|}
+  \hline
+  \textbf{STT} & \textbf{Nghiệp vụ} & \textbf{Người dùng} & \textbf{Phần mềm} & \textbf{Ghi chú} \\
+  \hline
+  1 & Quản trị hệ thống & Quản lý thông tin hồ sơ & \multirow{3}{*}{\parbox{3cm}{\centering Ghi nhận và thực hiện đúng}} & \\
+  \cline{1-3} \cline{5-5}
+  2 & Bác sĩ & \multirow{2}{*}{Cung cấp tên và mật khẩu} & & \\
+  \cline{1-2} \cline{5-5}
+  3 & Bệnh nhân & & & \\
+  \hline
+\end{tabular}

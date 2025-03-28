@@ -1,1 +1,69 @@
 \section{Yêu cầu nghiệp vụ}
+
+\subsection{Yêu cầu nghiệp vụ}
+
+\begin{tabular}{|c|c|c|c|>{\centering\arraybackslash}m{3cm}|}
+  \hline
+  \textbf{STT} & \textbf{Tên yêu cầu} & \textbf{Biểu mẫu} & \textbf{Quy định} & \textbf{Ghi chú} \\
+  \hline
+  1 & Tiếp nhận bệnh nhân & BM1 & QĐ1 & \\
+  \hline
+  2 & Tra cứu hồ sơ bệnh nhân & BM2a & & \\
+  \hline
+  3 & Tra cứu hồ sơ bác sĩ & BM2b & & \\
+  \hline
+  4 & Tra cứu kết quả xét nghiệm & BM3 & & \\
+  \hline
+  5 & Tạo phác đồ điều trị & BM4.1 & QĐ4 & \\
+  \hline
+  6 & Tra cứu phác đồ điều trị & BM4.2 & & \\
+  \hline
+  7 & Tạo lịch hẹn & BM5.1 & QĐ5 & \\
+  \hline
+  8 & Tra cứu lịch hẹn & BM5.2 & & \\
+  \hline
+  9 & Tạo thông báo & BM6.1 & QĐ6 & \\
+  \hline
+  10 & Tra cứu lịch sử thông báo & BM6.2 & & \\
+  \hline
+\end{tabular}
+
+\subsubsection{Yêu cầu tiếp nhận bệnh nhân}
+\subsubsection{Yêu cầu tra cứu hồ sơ bệnh nhân}
+\subsubsection{Yêu cầu tra cứu hồ sơ bác sĩ}
+\subsubsection{Yêu cầu tra cứu kết quả xét nghiệm}
+\subsubsection{Yêu cầu tạo phác đồ điều trị}
+\subsubsection{Yêu cầu tra cứu phác đồ điều trị}
+\subsubsection{Yêu cầu tạo lịch hẹn}
+\subsubsection{Yêu cầu tra cứu lịch hẹn}
+\subsubsection{Yêu cầu tạo thông báo}
+\subsubsection{Yêu cầu tra cứu lịch sử thông báo}
+
+\subsection{Bảng trách nhiệm yêu cầu nghiệp vụ}
+
+\noindent
+\begin{tabular}{|c|c|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{3cm}|}
+  \hline
+  \textbf{STT} & \textbf{Nghiệp vụ} & \textbf{Người dùng} & \textbf{Phần mềm} & \textbf{Ghi chú} \\
+  \hline
+  1 & Tiếp nhận bệnh nhân & Cung cấp thông tin bệnh nhân & Kiểm tra quy định và ghi nhận & Cho phép hủy, cập nhật lại hồ sơ \\
+  \hline
+  2 & Tra cứu hồ sơ bệnh nhân & Cung cấp thông tin bệnh nhân & Tìm, xuất thông tin liên quan & \multirow{2}{*}{\parbox{3cm}{\centering Cho phép quản trị hệ thống thêm, cập nhật, xóa hồ sơ}} \\
+  \cline{1-4}
+  3 & Tra cứu hồ sơ bác sĩ & Cung cấp thông tin bác sĩ & Tìm, xuất thông tin liên quan & \\
+  \hline
+  4 & Tra cứu kết quả xét nghiệm & Cung cấp thông tin bệnh nhân & Tìm, xuất thông tin liên quan & Nhận kết quả từ hệ thống LIS \\
+  \hline
+  5 & Tạo phác đồ điều trị & \multirow{2}{*}{\parbox{3cm}{\centering Cung cấp thông tin phác đồ điều trị}} & Kiểm tra quy định và ghi nhận & Đề xuất phác đồ điều trị \\
+  \cline{1-2} \cline{4-5}
+  6 & Tra cứu phác đồ điều trị & & Tìm, xuất thông tin liên quan & \\
+  \hline
+  7 & Tạo lịch hẹn & \multirow{2}{*}{\parbox{3cm}{\centering Cung cấp thông tin lịch hẹn}} & Kiểm tra quy định và ghi nhận & \\
+  \cline{1-2} \cline{4-5}
+  8 & Tra cứu lịch hẹn & & Tìm, xuất thông tin liên quan & \\
+  \hline
+  9 & Tạo thông báo & \multirow{2}{*}{\parbox{3cm}{\centering Cung cấp thông tin thông báo}} & Kiểm tra quy định và ghi nhận & \\
+  \cline{1-2} \cline{4-5}
+  10 & Tra cứu lịch sử thông báo & & Tìm, xuất thông tin liên quan & \\
+  \hline
+\end{tabular}
