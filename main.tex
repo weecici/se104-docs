@@ -6,12 +6,13 @@
 \usepackage{array}
 \usepackage{fontspec}
 \usepackage{float}
-\usepackage[a4paper, left=3cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
+\usepackage[a4paper, left=3cm, right=3cm, top=2cm, bottom=2cm]{geometry}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{indentfirst}
 \usepackage{multirow}
 \usepackage{titlesec}
+\usepackage{changepage}
 %\usepackage[utf8]{inputenc}
 % \usepackage{vntex}
 
@@ -29,6 +30,13 @@
 
 \renewcommand{\contentsname}{Mục lục}
 \renewcommand{\chaptername}{Chương}
+
+
+\newenvironment{centerpage}
+    {\begin{adjustwidth}{-3cm}{-3cm}
+     \begin{center}}
+    {\end{center}
+    \end{adjustwidth}}
 
 \begin{document}
     
